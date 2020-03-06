@@ -1,0 +1,39 @@
+//main: ../style.less
+.price__bg {
+  width: 100%;
+  background-color: @gray-l;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.price__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.price__collum {
+  h3 {
+    font-size: 1.7rem;
+    color: @red;
+    line-height: 1.125;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+    color: @gray-b;
+    line-height: 1.125;
+    margin-bottom: 0.4rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &--r {
+    h3 {
+      color: @orange;
+    }
+  }
+}
+.price__blackuote {
+  font-size: 1.5rem;
+  color: @red;
+  line-height: 1.35;
+}
