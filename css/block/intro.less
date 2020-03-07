@@ -4,6 +4,9 @@
   height: 36rem;
   background: url(../../img/intro/bg.png) no-repeat center;
   position: relative;
+  @media @mobile-sm{
+    height: 20rem;
+  }
 }
 .auto {
   position: absolute;
@@ -11,6 +14,9 @@
   bottom: 50px;
   @media @tablet {
     left: calc(50% - 350px);
+  }
+  @media @mobile-sm{
+    left: 0;
   }
 }
 .intro__title {
