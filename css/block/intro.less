@@ -9,6 +9,9 @@
   position: absolute;
   left: calc(50% - 440px);
   bottom: 50px;
+  @media @tablet {
+    left: calc(50% - 350px);
+  }
 }
 .intro__title {
   position: absolute;
@@ -18,5 +21,17 @@
     color: @white;
     line-height: 0.6;
     font-size: 2.7rem;
+    @media @tablet {
+      font-size: 2rem;
+    }
+    @media @mobile {
+      font-size: 1.6rem;
+    }
+  }
+  @media @tablet {
+    left: calc(50% - 300px);
+  }
+  @media @mobile {
+    left: calc(50% - 120px);
   }
 }
