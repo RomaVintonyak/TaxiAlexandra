@@ -6,6 +6,14 @@
     font-size: 2rem;
     color: @gray-b;
     margin-bottom: 1rem;
+    @media @mobile{
+      font-size: 2rem;
+      margin-bottom: 0.6rem;
+    }
+    @media @mobile-sm{
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
   }
   ul{
     padding-left: 3rem;
@@ -15,6 +23,13 @@
     li{
       margin: 0.3rem 0;
       font-size: 1.1rem;
+      @media @mobile-sm{
+        font-size: 0.9rem;
+      }
+    }
+    @media @mobile{
+      padding-left: 1rem;
+      margin-bottom: 0.5rem;
     }
   }
   p{
@@ -22,11 +37,26 @@
     font-weight: 400;
     color: @gray-b;
     margin-bottom: 1rem;
+    @media @mobile-sm{
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
   }
   h4{
     font-size: 1.6rem;
     font-weight: 600;
     color: @gray-b;
     margin-bottom: 3rem;
+    @media @mobile{
+      margin-bottom: 2rem;
+      font-size: 1.4rem;
+    }
+    @media @mobile-sm{
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+  }
+  @media @mobile{
+    width: 100%;
   }
 }
